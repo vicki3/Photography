@@ -1,0 +1,281 @@
+body a:hover {
+   text-decoration: none;
+ }
+
+.jumb {
+    height: 150px;
+    background-color: gainsboro;
+    background-size: cover;
+}
+
+p1 {
+    margin-left: 30px;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+h {
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.page {
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+}
+
+.feature {
+    height: 100px;
+    background-color: darkgray;
+    color: white;
+}
+
+.click {
+    height: 100px;
+    text-align: 80px;
+    border: dashed 1.5px;
+    color: white;
+}
+
+.click>p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: white;
+}
+
+.click:hover {
+    background-color: lightslategrey;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 32px;
+    color: darkgray;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    font-size: 22px;
+}
+
+p {
+    text-align: center;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 500;
+}
+
+.short {
+    border-bottom: 1px solid #aaa;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+/* note header */
+
+header.jumbotron {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 0;
+    background-image: url("../img/header-bg.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+header.jumbotron:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    transition: all .5s ease;
+}
+
+header.jumbotron.scroll:after {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron-content {
+    position: relative;
+    z-index: 3;
+}
+
+header.jumbotron h1 {
+    font-size: 40px;
+}
+
+.jumbotron h1,
+.jumbotron p,
+.jumbotron a {
+    color: white;
+}
+
+#portfolioSection {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#portfolioSection .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#slideshow .item {
+    height: 270px;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+}
+
+@media screen and (max-width: 767px) {
+    #slideshow .item {
+        height: 500px;
+    }
+    #slideshow .item img {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto;
+    }
+}
+
+.photo {
+    height: 450px;
+    text-align: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 0;
+    padding-right: 0;
+    filter: grayscale(100%);
+    transition: all .5s ease;
+}
+
+.photo h3 {
+    color: white;
+    font-size: 6px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 1px 15px rgba(0, 0, 0, 0.5);
+    line-height: 250px;
+    margin-top: 0;
+    margin-bottom: 0;
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.photo:hover {
+    filter: grayscale(0%);
+}
+
+.photo:hover h3 {
+    font-size: 24px;
+    opacity: 1;
+    line-height: 450px;
+}
+
+#photo-1 {
+    background-image: url("../img/USA/01.JPG");
+}
+
+#photo-2 {
+    background-image: url("../img/USA/02.JPG");
+}
+
+#photo-3 {
+    background-image: url("../img/USA/03.JPG");
+}
+
+#photo-4 {
+    background-image: url("../img/Taiwan/IMG_1693.jpg");
+}
+
+#photo-5 {
+    background-image: url("../img/Taiwan/IMG_3392.jpg");
+}
+
+#photo-6 {
+    background-image: url("../img/Taiwan/IMG_3495.jpg");
+}
+
+#photo-7 {
+    background-image: url("../img/Japan/IMG_2819.jpg");
+}
+
+#photo-8 {
+    background-image: url("../img/Japan/IMG_2604.jpg");
+}
+
+#photo-9 {
+    background-image: url("../img/Japan/IMG_2322.jpg");
+}
+
+#photo-10 {
+    background-image: url("../img/Plants/01.JPG");
+}
+
+#photo-11 {
+    background-image: url("../img/Plants/02.jpg");
+}
+
+#photo-12 {
+    background-image: url("../img/Plants/03.jpg");
+}
+
+#scrollTopBtn {
+    width: 70px;
+    height: 70px;
+    background-color: darkred;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    display: none;
+}
+
+#scrollTopBtn.scroll {
+    display: block;
+}
+
+#scrollTopBtn:hover,
+#scrollTopBtn:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.copy-right {
+    text-align: center;
+}
