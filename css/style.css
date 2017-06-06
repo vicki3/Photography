@@ -293,7 +293,7 @@ header.jumbotron h1 {
 }
 
 #photo-19 {
-    background-image: url("../img/Travel/T10.jpg");
+    background-image: url("../img/Travel/T12.jpg");
 }
 
 #photo-20 {
@@ -347,13 +347,14 @@ header.jumbotron h1 {
 #photo-32 {
     background-image: url("../img/Animal/A1.jpg");
 }
+
 #photo-33 {
     background-image: url("../img/Animal/A2.jpg");
 }
+
 #photo-34 {
     background-image: url("../img/Animal/A3.jpg");
 }
-
 
 #scrollTopBtn,
 .app .top .fa {
