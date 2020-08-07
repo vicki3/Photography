@@ -3,23 +3,22 @@ body a:hover {
 }
 
 .jumb {
-    padding-top: 20px;
-    height: 90px;
+    text-align: center;
+    padding-top: 38px;
+    height: 100px;
     background-color: black;
     color: white;
     background-size: cover;
 }
 
 p1 {
-    margin-left: 30px;
-    font-size: 45px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times', sans-serif;
+    font-weight: 300;
 }
 
 h {
-    margin-left: 30px;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
@@ -27,21 +26,20 @@ h {
 
 .page {
     width: 100%;
-    height: 40px;
+    height: 20px;
     background-color: lightgray;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 10px;
 }
 
 .feature {
-    height: 40px;
+    height: 35px;
     background-color: darkgray;
-    line-height: 50px;
+    line-height: 40px;
 }
 
 .feature:hover {
-    background-color: dimgray;
+    background-color: goldenrod;
     text-decoration: none;
 }
 
@@ -56,10 +54,10 @@ h1 {
 h2 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 17px;
     text-transform: uppercase;
-    font-weight: 200;
-    line-height: 10px;
+    font-weight: 300;
+    line-height: 1px;
     color: black;
 }
 
@@ -90,23 +88,6 @@ p {
 .click:hover {
     background-color: lightslategrey;
     text-decoration: none;
-}
-
-h1 {
-    font-size: 32px;
-    color: darkgray;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    text-transform: uppercase;
-}
-
-h3 {
-    text-align: center;
-    font-size: 22px;
-}
-
-p {
-    text-align: center;
 }
 
 .section-title {
@@ -197,6 +178,18 @@ header.jumbotron h1 {
     transition: all .5s ease;
 }
 
+.photo1 {
+    height: 350px;
+    text-align: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 0;
+    padding-right: 0;
+    filter: grayscale(100%);
+    transition: all .5s ease;
+}
+
 .photo h3 {
     color: white;
     font-size: 6px;
@@ -210,7 +203,8 @@ header.jumbotron h1 {
     transition: all .5s ease;
 }
 
-.photo:hover {
+.photo:hover,
+.photo1:hover {
     filter: grayscale(0%);
 }
 
@@ -356,6 +350,18 @@ header.jumbotron h1 {
     background-image: url("../img/Animal/A3.jpg");
 }
 
+#photo-35 {
+    background-image: url("../img/Animal/A4.JPG");
+}
+
+#photo-36 {
+    background-image: url("../img/Animal/A5.JPG");
+}
+
+#photo-37 {
+    background-image: url("../img/Animal/A6.JPG");
+}
+
 #scrollTopBtn,
 .app .top .fa {
     color: #fff;
@@ -365,7 +371,7 @@ header.jumbotron h1 {
 #scrollTopBtn {
     width: 60px;
     height: 60px;
-    background-color: darkgray;
+    background-color: darkgrey;
     text-align: center;
     line-height: 60px;
     position: fixed;
@@ -387,6 +393,7 @@ header.jumbotron h1 {
 #scrollTopBtn:focus,
 #scrollTopBtn:hover {
     text-decoration: none;
+    background-color: goldenrod;
     outline: 0
 }
 
@@ -405,5 +412,15 @@ header.jumbotron h1 {
     }
     .photo {
         height: 500px;
+    }
+    p1 {
+        font-size: 24px;
+        line-height: 50px;
+    }
+    h {
+        font-size: 17px;
+    }
+    h2 {
+        font-size: 15px;
     }
 }
